@@ -13,10 +13,3 @@ def if_palindrom(string):
         return False
     return "Аргумент должен быть строкой"
 print(if_palindrom("1234321"))
-
-def remove_spaces(string):
-    try:
-        return string.replace(" ", "")
-    except:
-        return "Аргумент должен являться строкой"
-print(remove_spaces(123))
